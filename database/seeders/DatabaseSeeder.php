@@ -28,6 +28,11 @@ class DatabaseSeeder extends Seeder
             EmpresaSeeder::class,
             DepartementoempleadoSeeder::class,
             PersonaSeeder::class,
+            OrdenProduccionSeeder::class,
+            TipoSeeder::class,
+            ParametroSeeder::class,
+            RendimientoSeeder::class,
+            PrecioSeeder::class,
         ]);
         
     }
