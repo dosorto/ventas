@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class empresa extends Model
+class Empresa extends Model
 {
     /** @use HasFactory<\Database\Factories\EmpresaFactory> */
     use HasFactory, SoftDeletes; // Usa SoftDeletes si lo tienes en tu migración

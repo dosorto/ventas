@@ -8,12 +8,12 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use App\Models\Empresa;
 
 
-class departementoempleado extends Model
+class departamentoempleado extends Model
 {
     /** @use HasFactory<\Database\Factories\DepartementoempleadoFactory> */
     use HasFactory, SoftDeletes;
 
-    protected $table = 'departemento_empleados'; 
+    protected $table = 'departamento_empleados'; 
 
     protected $fillable = [
         'nombre_departamento_empleado',

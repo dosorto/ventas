@@ -6,9 +6,9 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\DepartamentoEmpleado;
 use App\Models\Empresa;
-use Database\Factories\DepartementoempleadoFactory;
+use Database\Factories\DepartamentoEmpleadoFactory;
 
-class DepartementoempleadoSeeder extends Seeder
+class DepartamentoEmpleadoSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -20,7 +20,7 @@ class DepartementoempleadoSeeder extends Seeder
             return; 
         }
 
-        DepartementoempleadoFactory::new()->count(10)->create();
+        DepartamentoEmpleadoFactory::new()->count(10)->create();
 
         $this->command->info('10 departamentos de empleados agregados!');
     }

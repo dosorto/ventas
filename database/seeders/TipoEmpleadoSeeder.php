@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\Tipoempleado; // Asegúrate de que el nombre del modelo sea correcto
+use App\Models\TipoEmpleado; // Asegúrate de que el nombre del modelo sea correcto
 class TipoEmpleadoSeeder extends Seeder
 {
     /**
@@ -12,6 +12,6 @@ class TipoEmpleadoSeeder extends Seeder
      */
     public function run(): void
     {
-        Tipoempleado::factory()->count(10)->create();
+        TipoEmpleado::factory()->count(10)->create();
     }
 }

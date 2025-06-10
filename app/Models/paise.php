@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class paise extends Model
+class Paise extends Model
 {
     /** @use HasFactory<\Database\Factories\PaiseFactory> */
     use HasFactory;
