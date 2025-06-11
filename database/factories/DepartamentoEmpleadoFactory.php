@@ -4,13 +4,13 @@ namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use App\Models\Empresa;
-use App\Models\Departementoempleado;
+use App\Models\DepartamentoEmpleado;
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\departementoempleado>
  */
-class DepartementoempleadoFactory extends Factory
+class DepartamentoEmpleadoFactory extends Factory
 {
-    protected $model = Departementoempleado::class;
+    protected $model = DepartamentoEmpleado::class;
     /**
      * Define the model's default state.
      *

@@ -6,6 +6,7 @@ use App\Models\User;
 use Faker\Provider\ar_EG\Person;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Spatie\Permission\Contracts\Role;
 
 class DatabaseSeeder extends Seeder
 {
@@ -26,13 +27,14 @@ class DatabaseSeeder extends Seeder
             MunicipioSeeder::class,
             TipoEmpleadoSeeder::class,
             EmpresaSeeder::class,
-            DepartementoempleadoSeeder::class,
+            DepartamentoEmpleadoSeeder::class,
             PersonaSeeder::class,
             OrdenProduccionSeeder::class,
             TipoSeeder::class,
             ParametroSeeder::class,
             RendimientoSeeder::class,
             PrecioSeeder::class,
+            RolesAndPermissionsSeeder::class,
         ]);
         
     }

@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Tipoempleado extends Model
+class TipoEmpleado extends Model
 {
     /** @use HasFactory<\Database\Factories\TipoEmpleadoFactory> */
     use HasFactory, SoftDeletes;
