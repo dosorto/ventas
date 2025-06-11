@@ -28,6 +28,14 @@ class DatabaseSeeder extends Seeder
             EmpresaSeeder::class,
             DepartementoempleadoSeeder::class,
             PersonaSeeder::class,
+            CategoriasUnidadeSeeder::class,
+            ProveedoreSeeder::class,
+            UnidadesMedidaSeeder::class,
+            TipoOrdenCompraSeeder::class,
+            OrdenCompraSeeder::class,
+            ProductoSeeder::class,
+            OrdenCompraProductoSeeder::class,
+            InventarioProductoSeeder::class,
         ]);
         
     }
